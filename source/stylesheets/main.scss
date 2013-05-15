@@ -142,24 +142,10 @@ footer{
     }
 }
 .more{
-    position: absolute;
-    border: #53a665 solid 5px;
-    background-color: #53a665;
-    height: 15px;
-    text-align: center;
-    line-height: 5px;
-    color: white;
-    border-radius: 1px;
+    
   }
 .plans .more{
-        width: 50px;
-        margin-top:10px;
-        a{
-          text-transform: lowercase;
-          font-size: 15px;
-          font-weight: normal;
-          color:white;
-        }
+        
 }
 
 
@@ -179,12 +165,11 @@ footer{
       width:280px;
       padding-top:85px;
       .more{
-        margin-left: 110px;
+       
       }
   }
     .more{
-      margin-left: 265px;
-      margin-top: -60px;
+      
     }
     #references a{
       color:#53a665;
@@ -275,7 +260,7 @@ footer{
       margin-top: 16px;
       line-height:24px;
     }
-    .plans{
+  .plans{
     margin:0 auto;
     width:401px;
     padding-top:56px;
@@ -287,15 +272,11 @@ footer{
     }
 
     .more{
-      position: absolute;
-      top: 177px;
-      left: 62px;
+     
     }
   }
   .more{
-    position: absolute;
-    top: 113px;
-    right: -9px;
+    
   }
   footer{
     width:500px;
@@ -398,19 +379,14 @@ footer{
     float:left;
     font-size: 18px;
     .more{
-      position: absolute;
-      left: -41px;
+      
     }
     p{
       font-size: 15px;
     }
   }
   .more{
-    position: absolute;
-    top: 163px;
-    left: 54px;
-    width: 49px;
-    height: 6px;
+    
   }
   #lastp{
     display:block;
