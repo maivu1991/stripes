@@ -142,18 +142,12 @@ footer{
     }
 }
 .more{
-<<<<<<< HEAD
-    
-  }
-.plans .more{
-        
-=======
     position: absolute;
     border: #53a665 solid 5px;
     background-color: #53a665;
     height: 15px;
     text-align: center;
-    line-height: 14px;
+    line-height: 5px;
     color: white;
     border-radius: 1px;
   }
@@ -162,11 +156,10 @@ footer{
         margin-top:10px;
         a{
           text-transform: lowercase;
-          font-size: 16px;
+          font-size: 15px;
           font-weight: normal;
           color:white;
         }
->>>>>>> 26dfbcc80e137ec317f8a0ba912826dfb0fad07c
 }
 
 
@@ -186,11 +179,12 @@ footer{
       width:280px;
       padding-top:85px;
       .more{
-       
+        margin-left: 110px;
       }
   }
     .more{
-      
+      margin-left: 265px;
+      margin-top: -60px;
     }
     #references a{
       color:#53a665;
@@ -281,7 +275,7 @@ footer{
       margin-top: 16px;
       line-height:24px;
     }
-  .plans{
+    .plans{
     margin:0 auto;
     width:401px;
     padding-top:56px;
@@ -293,11 +287,15 @@ footer{
     }
 
     .more{
-     
+      position: absolute;
+      top: 177px;
+      left: 62px;
     }
   }
   .more{
-    
+    position: absolute;
+    top: 113px;
+    right: -9px;
   }
   footer{
     width:500px;
@@ -319,6 +317,17 @@ footer{
     body .index{
       width:1000px;
     }
+
+   /* header{
+      margin:0 auto;
+    }*/
+/*    header{
+      background-image: url(/images/header_bg.jpg);
+    }
+    #content{
+      background-image: url(/images/content_bg.jpg);
+    }*/
+
     nav a {
         float:left;
         padding-right: 13px;
@@ -389,20 +398,19 @@ footer{
     float:left;
     font-size: 18px;
     .more{
-
       position: absolute;
-      left: 5px;
+      left: -41px;
     }
     p{
       font-size: 15px;
     }
   }
   .more{
-  position: absolute;
-  top: 160px;
-  left: 60px;
-  width: 49px;
-  height: 15px;
+    position: absolute;
+    top: 163px;
+    left: 54px;
+    width: 49px;
+    height: 6px;
   }
   #lastp{
     display:block;
