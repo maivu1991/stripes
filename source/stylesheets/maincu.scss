@@ -1,0 +1,423 @@
+@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.clearfix:after {
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+
+.clearfix {
+width:941px;
+height:auto;
+margin:0px auto;
+}
+/*body.index{
+  margin:0 auto;
+}*/
+ 
+html[xmlns] .clearfix {
+ display: block;
+}
+ 
+* html .clearfix {
+ height: 1%;
+}
+.clearfix:last-child {
+border:none;
+}
+
+#home{
+  display:none;
+}
+#lastp{
+  display:none;
+  margin-top: -37px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+.break a{
+  display:none;
+  font-weight: bold;
+}
+.color {
+  color:#53a665;
+}
+
+header{
+  margin-top:25px;
+}
+#logo a{
+      color:black;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top:10px;
+    }
+
+nav{
+    li{
+      list-style: none;
+      a{
+        color:#333333;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 12px;
+        display: block;
+        border-bottom: black solid 5px;
+        padding-top: 12px;
+       }
+    }
+    #home a{
+      color:#53a665;
+    }
+  }
+
+  #canuser{
+    font-weight: bold;
+  }
+
+.plans{
+  position: relative;
+  a{
+    text-decoration: none;
+    color:black;
+  }
+}
+
+#video {
+    position: relative;
+    margin-top: 15px;
+}
+
+#video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#info {
+  margin-top: 15px;
+  line-height: 28px;
+}
+.plans{
+    
+    text-align: center;
+    line-height: 28px;
+    a{
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+}
+footer{ 
+    padding-top:65px;
+    ul{
+        border-top: #cccccc solid 1px;
+        list-style-type: none;
+        height:200px;
+        li{
+          padding-top:8px;
+          float:right;
+          padding-left:20px;
+        }
+    }
+}
+#thisis{
+  background-color: white;
+}
+#lets{
+    background-color: white; 
+    position: relative;
+    p{
+      position: relative;
+    }
+}
+.more{
+    position: absolute;
+    border: #53a665 solid 5px;
+    background-color: #53a665;
+    height: 15px;
+    text-align: center;
+    line-height: 14px;
+    color: white;
+    border-radius: 1px;
+  }
+.plans .more{
+        width: 50px;
+        margin-top:10px;
+        a{
+          text-transform: lowercase;
+          font-size: 15px;
+          font-weight: normal;
+          color:white;
+        }
+}
+
+
+
+
+/*-------------------------Responsive-------------------------*/
+
+@media only screen and (min-width: 320px) {
+    .wrapper {
+      width: 320px;
+      margin: 0 auto;
+    }
+    #video {
+      height: 180px;
+    }
+    .plans{
+      width:280px;
+      padding-top:85px;
+      .more{
+        margin-left: 110px;
+      }
+  }
+    .more{
+      margin-left: 265px;
+      margin-top: -60px;
+    }
+    #references a{
+      color:#53a665;
+      border-color: #53a665;
+    }
+    footer{
+      width:320px;
+      margin:0 auto;
+    }
+}
+
+/*----------------------------720----------------------------*/
+@media only screen and (min-width: 720px) {
+    .wrapper {
+      width: 720px;
+      margin: 0 auto;
+    }
+    body {
+      background-image: url(/images/bg.jpg);
+      background-repeat: repeat-x;
+    }
+    header{
+      height:95px;
+      width:auto;
+      margin:0 auto;
+      text-align: center;
+      #logo{
+        text-align: center;
+      }
+    }
+
+    #video {
+      margin:0 auto;
+      margin-top:10px;
+      width:462px;
+      height: 259px;
+    }
+
+    nav{ 
+      width: 425px;
+      margin: 0 auto;
+      a {
+        float:left;
+        padding-right: 13px;
+        text-align: center;
+        font-size: 15px;
+    }
+  }
+
+    nav li a {
+      border: none;
+    }
+
+    #home{
+      display:block;
+      color:#53a665;
+    }
+    #references a{
+      color:#333333;
+    }
+    .break a{
+      display:block;
+      padding-top: 12px;
+      color: black;
+      font-size:20px;
+    } 
+    #canuser{
+      margin:0 auto;
+      width:404px;
+      p{
+        font-size: 23px;
+        display: inline;
+        background-color: white;
+      }
+    }
+    #thisis{
+      margin:0 auto;
+      width:445px;
+      font-size: 16px;
+      margin-top: 12px;
+      line-height:24px;
+    }
+    #lets{
+      margin:0 auto;
+      width:454px;
+      height:71px;
+      font-size: 16px;
+      margin-top: 16px;
+      line-height:24px;
+    }
+    .plans{
+    margin:0 auto;
+    width:401px;
+    padding-top:56px;
+    p{
+      font-size: 15px;
+    }
+    a{
+      font-size:20px;
+    }
+
+    .more{
+      position: absolute;
+      top: 177px;
+      left: 62px;
+    }
+  }
+  .more{
+    position: absolute;
+    top: 113px;
+    right: -9px;
+  }
+  footer{
+    width:500px;
+    margin: 0 auto;
+  }
+}
+
+/*----------------------------940----------------------------*/
+@media only screen and (min-width: 940px) {
+    body {
+      background-image: url(/images/bg.jpg);
+      background-repeat: repeat-x;
+      background-position-y: 0px; 
+    }
+    .wrapper {
+      width: 940px;
+      margin: 0 auto;
+    }
+    body .index{
+      width:1000px;
+    }
+
+   /* header{
+      margin:0 auto;
+    }*/
+/*    header{
+      background-image: url(/images/header_bg.jpg);
+    }
+    #content{
+      background-image: url(/images/content_bg.jpg);
+    }*/
+
+    nav a {
+        float:left;
+        padding-right: 13px;
+    }
+
+     nav li a {
+      border: none;
+    }
+    nav ul{
+      padding-left:225px;
+    }
+    #logo a{
+      float: left;
+    }
+    #home{
+      display:block;
+    }
+    #references{
+      color:black;
+    }
+    .break a{
+      display:block;
+      padding-top: 12px;
+      color: black;
+      font-size:20px;
+    }
+    #info{
+    width:375px;
+    height:412px;
+    float:left;
+  }
+    #canuser p {
+      display: inline;
+      background-color: white;
+    }
+    #video{
+    width:462px;
+    height:412px;
+    float:right;
+  }
+  #video iframe{
+    height:261px;
+    padding-top:57px;
+  }
+  #canuser{
+      width:368px;
+      padding-top:16px;
+      p{
+        font-size: 22px;
+      }
+    }
+  #thisis{
+      width:375px;
+      font-size: 16px;
+      a{
+        text-decoration: underline;
+      }
+    }
+    #lets{
+      width:370px;
+      font-size: 16px;
+      height:112px;
+      line-height: 28px;
+    }
+  .plans{
+    width:295px;
+    padding: 25px 5px 30px 5px;
+    float:left;
+    font-size: 18px;
+    .more{
+      position: absolute;
+      left: -41px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .more{
+    position: absolute;
+    top: 143px;
+    left: -91px;
+    width: 49px;
+    height: 12px;
+  }
+  #lastp{
+    display:block;
+    top: 22px;
+  }
+  footer{
+    width:940px;
+    margin: 0 auto;
+  }
+}
